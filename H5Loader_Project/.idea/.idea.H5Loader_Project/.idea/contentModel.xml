@@ -7,7 +7,9 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="AnimationFromH5.cs" t="Include" />
           <e p="H5Load.cs" t="Include" />
+          <e p="UnityH5.cs" t="Include" />
         </e>
       </e>
       <e p="H5Loader_Project.sln" t="IncludeFlat" />

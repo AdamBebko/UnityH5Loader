@@ -1,6 +1,7 @@
 ﻿using System.IO;
 using System.Runtime.InteropServices;
 using HDF.PInvoke;
+using MoshPlayer.Scripts.FileLoaders;
 using UnityEngine;
 
 namespace Assets.Scripts {
@@ -8,8 +9,22 @@ namespace Assets.Scripts {
         // Start is called before the first frame update
         void Start() {
             var filePath = Path.Combine(Application.dataPath, "testfile.hdf5");
-            long fileId = H5F.open(filePath, H5F.ACC_RDONLY);
-            Debug.Log(fileId);
+
+            int[] ints = UnityH5.LoadIntDataset(filePath, "integers");
+            foreach (int i in ints) {
+                Debug.Log(i);
+            }
+            
+            float[] floats = UnityH5.LoadFloatDataset(filePath, "floats");
+            foreach (float i in floats) {
+                Debug.Log(i);
+            }
+
+            string[] strings = UnityH5.LoadStringDataset(filePath, "strings");
+            foreach (string i in strings) {
+                Debug.Log(i);
+            }
+
         }
         
         // Update is called once per frame
