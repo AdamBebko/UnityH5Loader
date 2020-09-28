@@ -1,6 +1,4 @@
 ﻿using System.IO;
-using System.Runtime.InteropServices;
-using HDF.PInvoke;
 using MoshPlayer.Scripts.FileLoaders;
 using UnityEngine;
 
@@ -27,10 +25,6 @@ namespace Assets.Scripts {
 
         }
         
-        // Update is called once per frame
-        void Update()
-        {
-        
-        }
+      
     }
 }
