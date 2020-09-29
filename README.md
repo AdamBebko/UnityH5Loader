@@ -1,5 +1,5 @@
 # H5UnityLoader
-A simple wrapper for PInvoke for loading H5 files in Unity
+A simple library for loading H5 files in Unity. Basically a simple wrapper for PInvoke. Includes a unity-friendly version of PInvoke
 
 Directly supports loading:
 
