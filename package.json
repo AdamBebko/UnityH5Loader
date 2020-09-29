@@ -1,6 +1,6 @@
 {
   "name": "com.adambebko.unityh5loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Unity H5 Loader",
   "description": "A unity compatible package to load H5 datasets using common unity data types. including int, float, and string. Some support for 2D arrays. Wraps HDF.PInvoke.",
   "unity": "2019.4",
