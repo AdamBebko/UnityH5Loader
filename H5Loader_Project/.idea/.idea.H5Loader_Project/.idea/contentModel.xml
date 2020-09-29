@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\Adam\AppData\local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Adam\AppData\local\JetBrains\Rider2020.1\resharper-host\local\Transient\ReSharperHost\v201\SolutionCaches\_H5Loader_Project.-1746191300.00" t="ExcludeRecursive" />
-    <e p="D:\GitHub\H5UnityLoader\H5Loader_Project" t="IncludeRecursive">
-      <e p="H5Loader.csproj" t="IncludeRecursive" />
+    <e p="C:\Users\Adam\AppData\local\JetBrains\Rider2020.1\resharper-host\local\Transient\ReSharperHost\v201\SolutionCaches\_H5Loader_Project.-933075594.00" t="ExcludeRecursive" />
+    <e p="D:\GitHub\UnityH5Loader\H5Loader_Project" t="IncludeRecursive">
       <e p="H5Loader_Project.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive">
@@ -16,13 +15,14 @@
             </e>
           </e>
           <e p="Scripts" t="Include">
-            <e p="H5Loader.asmdef" t="Include" />
             <e p="H5Loader.cs" t="Include" />
+            <e p="UnityH5Loader.asmdef" t="Include" />
           </e>
         </e>
       </e>
       <e p="SampleLoad.csproj" t="IncludeRecursive" />
       <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="UnityH5Loader.csproj" t="IncludeRecursive" />
     </e>
   </component>
 </project>
