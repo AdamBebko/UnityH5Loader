@@ -4,6 +4,19 @@
     <e p="C:\Users\Adam\AppData\local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
     <e p="C:\Users\Adam\AppData\local\JetBrains\Rider2020.1\resharper-host\local\Transient\ReSharperHost\v201\SolutionCaches\_H5Loader_Project.-933075594.00" t="ExcludeRecursive" />
     <e p="D:\GitHub\UnityH5Loader\H5Loader_Project" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Samples" t="Include">
+          <e p="Unity H5 Loader" t="Include">
+            <e p="1.0.0" t="Include">
+              <e p="Sample Load Scene" t="Include">
+                <e p="H5SampleLoader.cs" t="Include" />
+                <e p="SampleLoad.asmdef" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="H5Loader.csproj" t="IncludeRecursive" />
       <e p="H5Loader_Project.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
