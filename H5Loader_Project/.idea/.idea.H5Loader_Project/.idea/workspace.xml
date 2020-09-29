@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="037dc869-621d-4937-bbbd-5862a7b32d06" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.H5Loader_Project/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.H5Loader_Project/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/workflows/semantic_release.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../.github/workflows/semantic_release.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +31,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Packages/com.adambebko.unityh5loader/Scripts/H5Loader.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///UnityH5.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///UnityH5.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Packages/com.adambebko.unityh5loader/Scripts/H5Loader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../MoshViewer/UnityMoshViewer/Packages/MoshViewer/Scripts/FileLoaders/OpenedH5DataSet.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///H5Loader.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -57,6 +56,8 @@
         <option value="$PROJECT_DIR$/Packages/H5Loader/Scripts/UnityH5.cs" />
         <option value="$PROJECT_DIR$/Packages/H5Loader/Samples/SampleLoad/H5SampleLoader.cs" />
         <option value="$PROJECT_DIR$/Packages/H5Loader/Scripts/H5Loader.cs" />
+        <option value="$PROJECT_DIR$/Packages/com.adambebko.unityh5loader/Scripts/H5Loader.cs" />
+        <option value="$PROJECT_DIR$/../.github/workflows/semantic_release.yml" />
       </list>
     </option>
   </component>
@@ -118,6 +119,7 @@
       <workItem from="1600660439117" duration="9312000" />
       <workItem from="1601337098379" duration="1036000" />
       <workItem from="1601341754388" duration="12996000" />
+      <workItem from="1601355462760" duration="394000" />
     </task>
     <servers />
   </component>
@@ -147,10 +149,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="98" key="#Plugins/0.0.1440.900@0.0.1440.900" timestamp="1600635784358" />
-    <state x="92" y="92" width="2376" height="1216" key="DiffContextDialog" timestamp="1601347280650">
+    <state x="92" y="92" width="2376" height="1216" key="DiffContextDialog" timestamp="1601355989352">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="92" y="92" width="2376" height="1216" key="DiffContextDialog/0.0.2560.1400/-1280.272.1280.984/2560.0.1920.1160@0.0.2560.1400" timestamp="1601347280650" />
+    <state x="92" y="92" width="2376" height="1216" key="DiffContextDialog/0.0.2560.1400/-1280.272.1280.984/2560.0.1920.1160@0.0.2560.1400" timestamp="1601355989352" />
     <state x="393" y="138" key="SettingsEditor" timestamp="1600663280452">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

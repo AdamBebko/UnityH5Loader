@@ -1,4 +1,4 @@
-name: CI
+name: Create Release
 on:
   push:
     branches:
@@ -43,7 +43,7 @@ jobs:
           fi
           git push -f -u origin upm
         env:
-          PKG_ROOT: H5Loader_Project/Packages/H5Loader
+          PKG_ROOT: H5Loader_Project/Packages/com.adambebko.unityh5loader
       - name: Create upm git tag
         if: steps.semantic.outputs.new_release_published == 'true'
         run: |
@@ -51,4 +51,19 @@ jobs:
           git push origin --tags
         env:
           TAG: ${{ steps.semantic.outputs.new_release_version }}
+      - name: Setup Node
+        if: steps.semantic.outputs.new_release_published == 'true'
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+          registry-url: https://registry.npmjs.org/
+      - name: Publish to npm
+        if: steps.semantic.outputs.new_release_published == 'true'
+        run: |
+          yarn install
+          git checkout upm
+          npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+
 

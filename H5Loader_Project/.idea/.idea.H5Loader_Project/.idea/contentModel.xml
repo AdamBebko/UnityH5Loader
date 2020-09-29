@@ -8,7 +8,7 @@
       <e p="H5Loader_Project.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive">
-        <e p="H5Loader" t="Include">
+        <e p="com.adambebko.unityh5loader" t="Include">
           <e p="Samples" t="Include">
             <e p="SampleLoad" t="Include">
               <e p="H5SampleLoader.cs" t="Include" />
