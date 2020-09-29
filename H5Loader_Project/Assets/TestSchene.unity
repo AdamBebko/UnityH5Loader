@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 32931432}
   - component: {fileID: 32931431}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: H5SampleLoader
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -152,6 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bd3fab004a8042ebaa1bc7534796e5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  h5File: {fileID: 102900000, guid: a380e243932c64f009c5a963bc7f9f81, type: 3}
 --- !u!4 &32931432
 Transform:
   m_ObjectHideFlags: 0
