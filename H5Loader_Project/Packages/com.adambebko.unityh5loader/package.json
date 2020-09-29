@@ -22,7 +22,7 @@
     {
       "displayName": "Sample Load Scene",
       "description": "A quick demo scene that loads a few datasets from a sample .h5 file",
-      "path": "Samples~/SampleLoad"
+      "path": "Samples/SampleLoad"
     }
   ]
 }
