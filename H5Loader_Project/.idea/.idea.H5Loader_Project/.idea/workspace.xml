@@ -20,72 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="037dc869-621d-4937-bbbd-5862a7b32d06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/H5Loader.csproj.DotSettings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.adambebko.unityh5loader/Plugins.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.adambebko.unityh5loader/Plugins/HDF.PInvoke.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.adambebko.unityh5loader/Plugins/HDF.PInvoke.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.adambebko.unityh5loader/Plugins/hdf5.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.adambebko.unityh5loader/Plugins/hdf5.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.adambebko.unityh5loader/Plugins/hdf5_hl.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.adambebko.unityh5loader/Plugins/hdf5_hl.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.adambebko.unityh5loader/Plugins/libhdf5.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.adambebko.unityh5loader/Plugins/libhdf5.dylib.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.adambebko.unityh5loader/Plugins/libhdf5.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.adambebko.unityh5loader/Plugins/libhdf5.so.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.adambebko.unityh5loader/Plugins/libhdf5_hl.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.adambebko.unityh5loader/Plugins/libhdf5_hl.dylib.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.adambebko.unityh5loader/Plugins/libhdf5_hl.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.adambebko.unityh5loader/Plugins/libhdf5_hl.so.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.adambebko.unityh5loader/Plugins/zlib1.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.adambebko.unityh5loader/Plugins/zlib1.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.adambebko.unityh5loader/Samples.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.adambebko.unityh5loader/Samples/SampleLoad.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.adambebko.unityh5loader/Samples/SampleLoad/H5SampleLoader.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.adambebko.unityh5loader/Samples/SampleLoad/H5SampleLoader.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.adambebko.unityh5loader/Samples/SampleLoad/SampleLoad.asmdef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.adambebko.unityh5loader/Samples/SampleLoad/SampleLoad.asmdef.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.adambebko.unityh5loader/Samples/SampleLoad/TestSchene.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.adambebko.unityh5loader/Samples/SampleLoad/TestSchene.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.adambebko.unityh5loader/Samples/SampleLoad/testfile.hdf5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.adambebko.unityh5loader/Samples/SampleLoad/testfile.hdf5.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.adambebko.unityh5loader/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.adambebko.unityh5loader/Scripts/H5Loader.asmdef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.adambebko.unityh5loader/Scripts/H5Loader.asmdef.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.adambebko.unityh5loader/Scripts/H5Loader.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.adambebko.unityh5loader/Scripts/H5Loader.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.adambebko.unityh5loader/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.adambebko.unityh5loader/package.json.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.H5Loader_Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.H5Loader_Project/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.H5Loader_Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.H5Loader_Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/HDF.PInvoke.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/HDF.PInvoke.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/hdf5.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/hdf5.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/hdf5_hl.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/hdf5_hl.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/libhdf5.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/libhdf5.dylib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/libhdf5.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/libhdf5.so.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/libhdf5_hl.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/libhdf5_hl.dylib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/libhdf5_hl.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/libhdf5_hl.so.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/zlib1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/zlib1.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnimationFromH5.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnimationFromH5.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/H5SampleLoader.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/H5SampleLoader.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UnityH5.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UnityH5.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TestSchene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TestSchene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/testfile.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/testfile.hdf5.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.H5Loader_Project/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.H5Loader_Project/.idea/indexLayout.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +31,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Packages/com.adambebko.unityh5loader/Scripts/H5Loader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///UnityH5.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///UnityH5.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../MoshViewer/UnityMoshViewer/Packages/MoshViewer/Scripts/FileLoaders/OpenedH5DataSet.cs" root0="SKIP_HIGHLIGHTING" />
@@ -181,7 +117,7 @@
       <workItem from="1600635484561" duration="1175000" />
       <workItem from="1600660439117" duration="9312000" />
       <workItem from="1601337098379" duration="1036000" />
-      <workItem from="1601341754388" duration="12793000" />
+      <workItem from="1601341754388" duration="12996000" />
     </task>
     <servers />
   </component>

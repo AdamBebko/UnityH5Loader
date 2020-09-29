@@ -13,7 +13,7 @@ namespace H5Loader {
 
         static readonly ulong[] MaxDimensions = {10000, 10000, 10000};
 
-        /// <summary>
+        /// <summary>=
         /// Loads a 1D int dataset from an H5 file. The dataset must be 'i8' encoded dataset. In python: create it using numpy array with dtype='i8'
         /// </summary>
         /// <param name="filePath"></param>
@@ -83,7 +83,7 @@ namespace H5Loader {
 
             return longJoinedString.SplitInParts(stringLength).Select(ss => (string) (object) ss).ToArray();
         }
-
+        
         static IEnumerable<string> SplitInParts(this string theLongString, int partLength) {
             if (theLongString == null)
                 throw new ArgumentNullException(nameof(theLongString));
@@ -93,6 +93,43 @@ namespace H5Loader {
             for (var i = 0; i < theLongString.Length; i += partLength)
                 yield return theLongString.Substring(i, Math.Min(partLength, theLongString.Length - i));
         }
+
+        /// <summary>
+        /// Loads a 2d integer dataset from an H5 file. The dataset must be an 'i8' encoded dataset. In python: create it using numpy array with dtype='i8'
+        /// </summary>
+        /// <param name="filePath"></param>
+        /// <param name="datasetName"></param>
+        /// <returns></returns>
+        [PublicAPI]
+        public static int[,] Load2dIntDataset(string filePath, string datasetName) {
+            long[,] doubleArray = Load2DDataset<long>(filePath, datasetName);
+            int[,] intArray = new int[doubleArray.GetLength(0),doubleArray.GetLength(1)];
+            for (int i = 0; i < doubleArray.GetLength(0); i++) {
+                for (int j = 0; j < doubleArray.GetLength(1); j++) {
+                    intArray[i, j] = (int)doubleArray[i, j];
+                }
+            }
+            return intArray;
+        }
+        
+        /// <summary>
+        /// Loads a 2d float dataset from an H5 file. The dataset must be 'float' encoded dataset. In python: create it using numpy array with dtype='float'
+        /// </summary>
+        /// <param name="filePath"></param>
+        /// <param name="datasetName"></param>
+        /// <returns></returns>
+        public static float[,] Load2dFloatDataset(string filePath, string datasetName) {
+            double[,] doubleArray = Load2DDataset<double>(filePath, datasetName);
+            float[,] floatArray = new float[doubleArray.GetLength(0),doubleArray.GetLength(1)];
+            for (int i = 0; i < doubleArray.GetLength(0); i++) {
+                for (int j = 0; j < doubleArray.GetLength(1); j++) {
+                    floatArray[i, j] = (float)doubleArray[i, j];
+                }
+            }
+            return floatArray;
+        }
+
+        
 
         /// <summary>
         /// WARNING: ADVANCED USE ONLY!! Loads a 1D generic dataset from an H5 file.
@@ -141,7 +178,7 @@ namespace H5Loader {
             return resultArray;
 
         }
-        
+
         /// <summary>
         /// WARNING: ADVANCED USE ONLY!! Loads a 2D generic dataset from an H5 file.
         /// The generic loaders only loads data in non-Unity friendly types, such as bytes, uints, longs etc...
@@ -210,9 +247,8 @@ namespace H5Loader {
             return resultArray;
 
         }
-        
 
-    
+
         static int[] GetDatasetDimensions(long spaceID) {
             int numberOfDimensions = H5S.get_simple_extent_ndims(spaceID);
 
@@ -225,7 +261,8 @@ namespace H5Loader {
 
             return dimensions;
         }
-        
+
+
         static int[] ConvertDimensionsToIntegers(ulong[] dims) {
             if (dims == null) throw new ArgumentNullException(nameof(dims));
             int[] dimensions = new int[dims.Length];
@@ -235,42 +272,6 @@ namespace H5Loader {
 
             return dimensions;
         }
-
-        /// <summary>
-        /// Loads a 2d integer dataset from an H5 file. The dataset must be an 'i8' encoded dataset. In python: create it using numpy array with dtype='i8'
-        /// </summary>
-        /// <param name="filePath"></param>
-        /// <param name="datasetName"></param>
-        /// <returns></returns>
-        [PublicAPI]
-        public static int[,] Load2dIntDataset(string filePath, string datasetName) {
-            long[,] doubleArray = Load2DDataset<long>(filePath, datasetName);
-            int[,] intArray = new int[doubleArray.GetLength(0),doubleArray.GetLength(1)];
-            for (int i = 0; i < doubleArray.GetLength(0); i++) {
-                for (int j = 0; j < doubleArray.GetLength(1); j++) {
-                    intArray[i, j] = (int)doubleArray[i, j];
-                }
-            }
-            return intArray;
-        }
-        
-        /// <summary>
-        /// Loads a 2d float dataset from an H5 file. The dataset must be 'float' encoded dataset. In python: create it using numpy array with dtype='float'
-        /// </summary>
-        /// <param name="filePath"></param>
-        /// <param name="datasetName"></param>
-        /// <returns></returns>
-        public static float[,] Load2dFloatDataset(string filePath, string datasetName) {
-            double[,] doubleArray = Load2DDataset<double>(filePath, datasetName);
-            float[,] floatArray = new float[doubleArray.GetLength(0),doubleArray.GetLength(1)];
-            for (int i = 0; i < doubleArray.GetLength(0); i++) {
-                for (int j = 0; j < doubleArray.GetLength(1); j++) {
-                    floatArray[i, j] = (float)doubleArray[i, j];
-                }
-            }
-            return floatArray;
-        }
-        
     }
 
 }
