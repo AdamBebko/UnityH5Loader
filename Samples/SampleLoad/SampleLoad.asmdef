@@ -1,7 +1,7 @@
 {
     "name": "SampleLoad",
     "references": [
-        "H5Loader"
+        "UnityH5Loader"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
