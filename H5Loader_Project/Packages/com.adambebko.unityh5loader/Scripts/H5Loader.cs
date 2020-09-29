@@ -6,9 +6,8 @@ using System.Runtime.InteropServices;
 using System.Text;
 using HDF.PInvoke;
 using JetBrains.Annotations;
-using UnityEngine;
 
-namespace H5Loader {
+namespace UnityH5Loader {
     public static class H5Loader {
 
         static readonly ulong[] MaxDimensions = {10000, 10000, 10000};

@@ -7,6 +7,10 @@ Directly supports loading:
 * 2D arrays of: `float`, `int`
 * Advanced: Also supports generic methods to load any datatype, but these generic types do not play well with unity, and must usually be cast manually to unity-friendly types. They are typically types `byte`, `ulong`, `double`, etc.
 
+Tested on macos and windows 64 bit. Should also work on linux but untested.
+
+If h5 is from python, it's easier (especially for strings) if datasets are created from numpy arrays with the dtype set to `'i8'` (int), `'float'`, or `'S'` (string).
+
 ## Installation
  
 #### Unity 2020.1 and later (recommended):
@@ -45,5 +49,10 @@ reference the H5Loader assembly and namespace.
 There are public static methods for each kind of supported datatype. For example:
 
 ```c#
-H5Loader.Load
+using UnityH5Loader;
+
+float[] loadedFloatArray = H5Loader.LoadFloatDataset(filePath, "floatdatasetname");
+int[,] loadedInt2DArray = H5Loader.Load2dIntDataset(filePath, "Dtwointdatasetname");
 ```
+
+See included sample (accessible in package manager window) for more examples.
