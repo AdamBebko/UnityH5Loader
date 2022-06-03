@@ -56,3 +56,22 @@ int[,] loadedInt2DArray = H5Loader.Load2dIntDataset(filePath, "Dtwointdatasetnam
 ```
 
 See included sample (accessible in package manager window) for more examples.
+
+# FAQ
+
+### I'm getting an error in the console that is blank
+
+Are you on MacOS? yeah..... you're out of luck. Quit unity and reopen it. This seems to happen a ton. As far as I can tell it's a bug in the PInvoke DLLs. I've tried to fix this to no avail. It only seems to happen with the mac DLL in the project. 
+
+Are you on windows? try deleting the mac DLLS from the package.
+
+### I'm getting a stack overflow when I read the files!
+
+The tool I made is VERY finicky about data type and data structures in the H5 file. Read the above readme carefuly and make sure you data is in one of those specifc formats. Otherwise it simply won't work. 
+
+Another possibility is that you've loaded your huge data, and then are looping through it. Don't do any loops over huge datasets, especially not using Debug.Log. To check if your data has loaded correctly, I use something like this:
+
+```csharp
+int[,] loadedInt2DArray = H5Loader.Load2dIntDataset(fullPath, "data");
+Debug.Log($"loaded size: {loadedInt2DArray.GetLength(0)}, {loadedInt2DArray.GetLength(1)}");
+```
